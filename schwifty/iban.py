@@ -351,7 +351,7 @@ class IBAN(common.Base):
         """List[str]: The name of the bank associated with the IBAN bank code.
 
         Examples:
-            >>> IBAN('DE89370400440532013000').bank_name
+            >>> IBAN('DE89370400440532013000').bank_short_name
             'Commerzbank Köln'
 
         """
